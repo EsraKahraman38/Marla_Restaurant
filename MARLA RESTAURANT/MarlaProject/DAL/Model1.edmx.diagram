@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5b89f4a2dfcc43e59580ec50e48e2326" Name="Diagram1">
+        <EntityTypeShape EntityType="MarlaRestaurantModel.Adisyon" Width="1.5" PointX="10.5" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarlaRestaurantModel.AdisyonOdemeDetay" Width="1.5" PointX="12.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarlaRestaurantModel.AdisyonSiparisDetay" Width="1.5" PointX="12.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarlaRestaurantModel.Calisan" Width="1.5" PointX="5.25" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarlaRestaurantModel.CalisanDetay" Width="1.5" PointX="7.5" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarlaRestaurantModel.CARI_HESAP_HAREKETLERI" Width="1.5" PointX="5.25" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarlaRestaurantModel.CariHesaplar" Width="1.5" PointX="3" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarlaRestaurantModel.Depo" Width="1.5" PointX="3" PointY="16" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarlaRestaurantModel.DepoMalzemeDetay" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarlaRestaurantModel.Evraklar" Width="1.5" PointX="3" PointY="23" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarlaRestaurantModel.Malzeme" Width="1.5" PointX="3" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarlaRestaurantModel.MalzemeKategori" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarlaRestaurantModel.Menu" Width="1.5" PointX="0.75" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarlaRestaurantModel.MenuKategori" Width="1.5" PointX="3.75" PointY="19.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarlaRestaurantModel.Musteri" Width="1.5" PointX="8.25" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarlaRestaurantModel.OdemeYontemi" Width="1.5" PointX="10.5" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarlaRestaurantModel.Restaurant" Width="1.5" PointX="3" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarlaRestaurantModel.RestaurantMalzemeDetay" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarlaRestaurantModel.Siparis" Width="1.5" PointX="10.5" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarlaRestaurantModel.Tedarikci" Width="1.5" PointX="0.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarlaRestaurantModel.Urun" Width="1.5" PointX="6" PointY="19.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarlaRestaurantModel.UrunMalzemeDetay" Width="1.5" PointX="8.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarlaRestaurantModel.UrunSiparisDetay" Width="1.5" PointX="12.75" PointY="16" IsExpanded="true" />
+        <AssociationConnector Association="MarlaRestaurantModel.Fk_AdisyonOdemeDetay01" ManuallyRouted="false" />
+        <AssociationConnector Association="MarlaRestaurantModel.Fk_AdisyonOdemeDetay05" ManuallyRouted="false" />
+        <AssociationConnector Association="MarlaRestaurantModel.Fk_AdisyonOdemeDetay02" ManuallyRouted="false" />
+        <AssociationConnector Association="MarlaRestaurantModel.Fk_AdisyonOdemeDetay06" ManuallyRouted="false" />
+        <AssociationConnector Association="MarlaRestaurantModel.FK__Siparis__Calisan__7C4F7684" ManuallyRouted="false" />
+        <AssociationConnector Association="MarlaRestaurantModel.Fk_Calisan01" ManuallyRouted="false" />
+        <AssociationConnector Association="MarlaRestaurantModel.Fk_CalisanDetay01" ManuallyRouted="false" />
+        <AssociationConnector Association="MarlaRestaurantModel.FK__CARI_HESA__CariH__160F4887" ManuallyRouted="false" />
+        <AssociationConnector Association="MarlaRestaurantModel.FK__CARI_HESA__Evrak__17036CC0" ManuallyRouted="false" />
+        <AssociationConnector Association="MarlaRestaurantModel.FK__CariHesap__Tedar__7D439ABD" ManuallyRouted="false" />
+        <AssociationConnector Association="MarlaRestaurantModel.Fk_DepoMalzemeDetay01" ManuallyRouted="false" />
+        <AssociationConnector Association="MarlaRestaurantModel.Fk_DepoMalzemeDetay02" ManuallyRouted="false" />
+        <AssociationConnector Association="MarlaRestaurantModel.FK__Malzeme__Malzeme__71D1E811" ManuallyRouted="false" />
+        <AssociationConnector Association="MarlaRestaurantModel.FK__Malzeme__Tedarik__72C60C4A" ManuallyRouted="false" />
+        <AssociationConnector Association="MarlaRestaurantModel.Fk_RestaurantMalzemeDetay02" ManuallyRouted="false" />
+        <AssociationConnector Association="MarlaRestaurantModel.Fk_UrunMalzemeDetay02" ManuallyRouted="false" />
+        <AssociationConnector Association="MarlaRestaurantModel.FK__MenuKateg__MenuI__7B5B524B" ManuallyRouted="false" />
+        <AssociationConnector Association="MarlaRestaurantModel.FK__Restauran__MenuI__6D0D32F4" ManuallyRouted="false" />
+        <AssociationConnector Association="MarlaRestaurantModel.Fk_UrunKategori" ManuallyRouted="false" />
+        <AssociationConnector Association="MarlaRestaurantModel.FK__Siparis__Musteri__6EF57B66" ManuallyRouted="false" />
+        <AssociationConnector Association="MarlaRestaurantModel.Fk_RestaurantMalzemeDetay01" ManuallyRouted="false" />
+        <AssociationConnector Association="MarlaRestaurantModel.Fk_UrunSiparisDetay01" ManuallyRouted="false" />
+        <AssociationConnector Association="MarlaRestaurantModel.Fk_UrunMalzemeDetay01" ManuallyRouted="false" />
+        <AssociationConnector Association="MarlaRestaurantModel.Fk_UrunSiparisDetay02" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

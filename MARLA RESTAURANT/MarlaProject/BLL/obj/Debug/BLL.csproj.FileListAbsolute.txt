@@ -1,0 +1,45 @@
+C:\Users\mert-\source\repos\MarlaProject\BLL\bin\Debug\BLL.dll
+C:\Users\mert-\source\repos\MarlaProject\BLL\bin\Debug\BLL.pdb
+C:\Users\mert-\source\repos\MarlaProject\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\mert-\source\repos\MarlaProject\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\mert-\source\repos\MarlaProject\BLL\obj\Debug\BLL.dll
+C:\Users\mert-\source\repos\MarlaProject\BLL\obj\Debug\BLL.pdb
+C:\Users\mert-\source\repos\MarlaProject\BLL\bin\Debug\DAL.dll
+C:\Users\mert-\source\repos\MarlaProject\BLL\bin\Debug\EntityFramework.dll
+C:\Users\mert-\source\repos\MarlaProject\BLL\bin\Debug\DAL.pdb
+C:\Users\mert-\source\repos\MarlaProject\BLL\bin\Debug\DAL.dll.config
+C:\Users\mert-\source\repos\MarlaProject\BLL\bin\Debug\EntityFramework.xml
+C:\Users\mert-\source\repos\MarlaProject\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\mert-\source\repos\MarlaProject\BLL\bin\Debug\BLL.dll.config
+C:\Users\mert-\source\repos\MarlaProject\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mert-\source\repos\MarlaProject\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dell\Desktop\MarlaProject\BLL\bin\Debug\BLL.dll.config
+C:\Users\Dell\Desktop\MarlaProject\BLL\bin\Debug\BLL.dll
+C:\Users\Dell\Desktop\MarlaProject\BLL\bin\Debug\BLL.pdb
+C:\Users\Dell\Desktop\MarlaProject\BLL\bin\Debug\DAL.dll
+C:\Users\Dell\Desktop\MarlaProject\BLL\bin\Debug\EntityFramework.dll
+C:\Users\Dell\Desktop\MarlaProject\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dell\Desktop\MarlaProject\BLL\bin\Debug\DAL.pdb
+C:\Users\Dell\Desktop\MarlaProject\BLL\bin\Debug\DAL.dll.config
+C:\Users\Dell\Desktop\MarlaProject\BLL\bin\Debug\EntityFramework.xml
+C:\Users\Dell\Desktop\MarlaProject\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dell\Desktop\MarlaProject\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\Dell\Desktop\MarlaProject\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\MarlaProject\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\Dell\Desktop\MarlaProject\BLL\obj\Debug\BLL.dll
+C:\Users\Dell\Desktop\MarlaProject\BLL\obj\Debug\BLL.pdb
+C:\Users\Dell\Desktop\MARLA RESTAURANT\MarlaProject\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\Dell\Desktop\MARLA RESTAURANT\MarlaProject\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\MARLA RESTAURANT\MarlaProject\BLL\obj\Debug\BLL.dll
+C:\Users\Dell\Desktop\MARLA RESTAURANT\MarlaProject\BLL\obj\Debug\BLL.pdb
+C:\Users\Dell\Desktop\MARLA RESTAURANT\MarlaProject\BLL\bin\Debug\BLL.dll.config
+C:\Users\Dell\Desktop\MARLA RESTAURANT\MarlaProject\BLL\bin\Debug\BLL.dll
+C:\Users\Dell\Desktop\MARLA RESTAURANT\MarlaProject\BLL\bin\Debug\BLL.pdb
+C:\Users\Dell\Desktop\MARLA RESTAURANT\MarlaProject\BLL\bin\Debug\DAL.dll
+C:\Users\Dell\Desktop\MARLA RESTAURANT\MarlaProject\BLL\bin\Debug\EntityFramework.dll
+C:\Users\Dell\Desktop\MARLA RESTAURANT\MarlaProject\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dell\Desktop\MARLA RESTAURANT\MarlaProject\BLL\bin\Debug\DAL.pdb
+C:\Users\Dell\Desktop\MARLA RESTAURANT\MarlaProject\BLL\bin\Debug\DAL.dll.config
+C:\Users\Dell\Desktop\MARLA RESTAURANT\MarlaProject\BLL\bin\Debug\EntityFramework.xml
+C:\Users\Dell\Desktop\MARLA RESTAURANT\MarlaProject\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dell\Desktop\MARLA RESTAURANT\MarlaProject\BLL\obj\Debug\BLL.csproj.CopyComplete

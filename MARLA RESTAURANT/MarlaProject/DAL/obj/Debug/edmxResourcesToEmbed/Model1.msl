@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MarlaRestaurantModelStoreContainer" CdmEntityContainer="MarlaRestaurantEntities">
+    <EntitySetMapping Name="Adisyon">
+      <EntityTypeMapping TypeName="MarlaRestaurantModel.Adisyon">
+        <MappingFragment StoreEntitySet="Adisyon">
+          <ScalarProperty Name="AdisyonID" ColumnName="AdisyonID" />
+          <ScalarProperty Name="Tarih" ColumnName="Tarih" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdisyonOdemeDetay">
+      <EntityTypeMapping TypeName="MarlaRestaurantModel.AdisyonOdemeDetay">
+        <MappingFragment StoreEntitySet="AdisyonOdemeDetay">
+          <ScalarProperty Name="AdisyonOdemeDetayID" ColumnName="AdisyonOdemeDetayID" />
+          <ScalarProperty Name="AdisyonID" ColumnName="AdisyonID" />
+          <ScalarProperty Name="OdemeYontemiID" ColumnName="OdemeYontemiID" />
+          <ScalarProperty Name="OdemeYontemiAdi" ColumnName="OdemeYontemiAdi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdisyonSiparisDetay">
+      <EntityTypeMapping TypeName="MarlaRestaurantModel.AdisyonSiparisDetay">
+        <MappingFragment StoreEntitySet="AdisyonSiparisDetay">
+          <ScalarProperty Name="AdisyonSiparisDetayID" ColumnName="AdisyonSiparisDetayID" />
+          <ScalarProperty Name="SiparisID" ColumnName="SiparisID" />
+          <ScalarProperty Name="AdisyonID" ColumnName="AdisyonID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Calisan">
+      <EntityTypeMapping TypeName="MarlaRestaurantModel.Calisan">
+        <MappingFragment StoreEntitySet="Calisan">
+          <ScalarProperty Name="CalisanID" ColumnName="CalisanID" />
+          <ScalarProperty Name="CalisanAdi" ColumnName="CalisanAdi" />
+          <ScalarProperty Name="CalisanSoyadi" ColumnName="CalisanSoyadi" />
+          <ScalarProperty Name="Unvan" ColumnName="Unvan" />
+          <ScalarProperty Name="RestaurantID" ColumnName="RestaurantID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CalisanDetay">
+      <EntityTypeMapping TypeName="MarlaRestaurantModel.CalisanDetay">
+        <MappingFragment StoreEntitySet="CalisanDetay">
+          <ScalarProperty Name="CalisanDetayID" ColumnName="CalisanDetayID" />
+          <ScalarProperty Name="Maas" ColumnName="Maas" />
+          <ScalarProperty Name="Tckn" ColumnName="Tckn" />
+          <ScalarProperty Name="TelNo" ColumnName="TelNo" />
+          <ScalarProperty Name="Mail" ColumnName="Mail" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CARI_HESAP_HAREKETLERI">
+      <EntityTypeMapping TypeName="MarlaRestaurantModel.CARI_HESAP_HAREKETLERI">
+        <MappingFragment StoreEntitySet="CARI_HESAP_HAREKETLERI">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="tutar" ColumnName="tutar" />
+          <ScalarProperty Name="CariHesapID" ColumnName="CariHesapID" />
+          <ScalarProperty Name="EvrakTipi" ColumnName="EvrakTipi" />
+          <ScalarProperty Name="VadeTarihi" ColumnName="VadeTarihi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CariHesaplar">
+      <EntityTypeMapping TypeName="MarlaRestaurantModel.CariHesaplar">
+        <MappingFragment StoreEntitySet="CariHesaplar">
+          <ScalarProperty Name="CariHesapID" ColumnName="CariHesapID" />
+          <ScalarProperty Name="CariKodu" ColumnName="CariKodu" />
+          <ScalarProperty Name="Unvan" ColumnName="Unvan" />
+          <ScalarProperty Name="VergiNumarasi" ColumnName="VergiNumarasi" />
+          <ScalarProperty Name="VergiDairesi" ColumnName="VergiDairesi" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+          <ScalarProperty Name="Adres" ColumnName="Adres" />
+          <ScalarProperty Name="TedarikciID" ColumnName="TedarikciID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Depo">
+      <EntityTypeMapping TypeName="MarlaRestaurantModel.Depo">
+        <MappingFragment StoreEntitySet="Depo">
+          <ScalarProperty Name="DepoID" ColumnName="DepoID" />
+          <ScalarProperty Name="DepoAdi" ColumnName="DepoAdi" />
+          <ScalarProperty Name="Adres" ColumnName="Adres" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DepoMalzemeDetay">
+      <EntityTypeMapping TypeName="MarlaRestaurantModel.DepoMalzemeDetay">
+        <MappingFragment StoreEntitySet="DepoMalzemeDetay">
+          <ScalarProperty Name="DepoMalzemeID" ColumnName="DepoMalzemeID" />
+          <ScalarProperty Name="DepoID" ColumnName="DepoID" />
+          <ScalarProperty Name="MalzemeID" ColumnName="MalzemeID" />
+          <ScalarProperty Name="DepoStok" ColumnName="DepoStok" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Evraklar">
+      <EntityTypeMapping TypeName="MarlaRestaurantModel.Evraklar">
+        <MappingFragment StoreEntitySet="Evraklar">
+          <ScalarProperty Name="EvrakTipi" ColumnName="EvrakTipi" />
+          <ScalarProperty Name="EvrakAdi" ColumnName="EvrakAdi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Malzeme">
+      <EntityTypeMapping TypeName="MarlaRestaurantModel.Malzeme">
+        <MappingFragment StoreEntitySet="Malzeme">
+          <ScalarProperty Name="MalzemeID" ColumnName="MalzemeID" />
+          <ScalarProperty Name="MalzemeAdi" ColumnName="MalzemeAdi" />
+          <ScalarProperty Name="Durum" ColumnName="Durum" />
+          <ScalarProperty Name="MalzemeKategoriID" ColumnName="MalzemeKategoriID" />
+          <ScalarProperty Name="TedarikciID" ColumnName="TedarikciID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MalzemeKategori">
+      <EntityTypeMapping TypeName="MarlaRestaurantModel.MalzemeKategori">
+        <MappingFragment StoreEntitySet="MalzemeKategori">
+          <ScalarProperty Name="MalzemeKategoriID" ColumnName="MalzemeKategoriID" />
+          <ScalarProperty Name="MalzemeKategoriAdi" ColumnName="MalzemeKategoriAdi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Menu">
+      <EntityTypeMapping TypeName="MarlaRestaurantModel.Menu">
+        <MappingFragment StoreEntitySet="Menu">
+          <ScalarProperty Name="MenuID" ColumnName="MenuID" />
+          <ScalarProperty Name="MenuAdi" ColumnName="MenuAdi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MenuKategori">
+      <EntityTypeMapping TypeName="MarlaRestaurantModel.MenuKategori">
+        <MappingFragment StoreEntitySet="MenuKategori">
+          <ScalarProperty Name="MenuKategoriID" ColumnName="MenuKategoriID" />
+          <ScalarProperty Name="MenuKategoriAdi" ColumnName="MenuKategoriAdi" />
+          <ScalarProperty Name="MenuID" ColumnName="MenuID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Musteri">
+      <EntityTypeMapping TypeName="MarlaRestaurantModel.Musteri">
+        <MappingFragment StoreEntitySet="Musteri">
+          <ScalarProperty Name="MusteriID" ColumnName="MusteriID" />
+          <ScalarProperty Name="Adi" ColumnName="Adi" />
+          <ScalarProperty Name="Soyadi" ColumnName="Soyadi" />
+          <ScalarProperty Name="Adres" ColumnName="Adres" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OdemeYontemi">
+      <EntityTypeMapping TypeName="MarlaRestaurantModel.OdemeYontemi">
+        <MappingFragment StoreEntitySet="OdemeYontemi">
+          <ScalarProperty Name="OdemeYontemiID" ColumnName="OdemeYontemiID" />
+          <ScalarProperty Name="OdemeYontemiAdi" ColumnName="OdemeYontemiAdi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Restaurant">
+      <EntityTypeMapping TypeName="MarlaRestaurantModel.Restaurant">
+        <MappingFragment StoreEntitySet="Restaurant">
+          <ScalarProperty Name="RestaurantID" ColumnName="RestaurantID" />
+          <ScalarProperty Name="RestaurantAdi" ColumnName="RestaurantAdi" />
+          <ScalarProperty Name="Sehir" ColumnName="Sehir" />
+          <ScalarProperty Name="Adres" ColumnName="Adres" />
+          <ScalarProperty Name="Tel" ColumnName="Tel" />
+          <ScalarProperty Name="MenuID" ColumnName="MenuID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RestaurantMalzemeDetay">
+      <EntityTypeMapping TypeName="MarlaRestaurantModel.RestaurantMalzemeDetay">
+        <MappingFragment StoreEntitySet="RestaurantMalzemeDetay">
+          <ScalarProperty Name="RestaurantMalzemeDetayID" ColumnName="RestaurantMalzemeDetayID" />
+          <ScalarProperty Name="MalzemeID" ColumnName="MalzemeID" />
+          <ScalarProperty Name="RestaurantID" ColumnName="RestaurantID" />
+          <ScalarProperty Name="RestaurantStok" ColumnName="RestaurantStok" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Siparis">
+      <EntityTypeMapping TypeName="MarlaRestaurantModel.Siparis">
+        <MappingFragment StoreEntitySet="Siparis">
+          <ScalarProperty Name="SiparisID" ColumnName="SiparisID" />
+          <ScalarProperty Name="SiparisTarihi" ColumnName="SiparisTarihi" />
+          <ScalarProperty Name="TeslimTarihi" ColumnName="TeslimTarihi" />
+          <ScalarProperty Name="SiparisTuru" ColumnName="SiparisTuru" />
+          <ScalarProperty Name="MasaNumarası" ColumnName="MasaNumarası" />
+          <ScalarProperty Name="MusteriID" ColumnName="MusteriID" />
+          <ScalarProperty Name="CalisanId" ColumnName="CalisanId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tedarikci">
+      <EntityTypeMapping TypeName="MarlaRestaurantModel.Tedarikci">
+        <MappingFragment StoreEntitySet="Tedarikci">
+          <ScalarProperty Name="TedarikciID" ColumnName="TedarikciID" />
+          <ScalarProperty Name="TedarikciAdi" ColumnName="TedarikciAdi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Urun">
+      <EntityTypeMapping TypeName="MarlaRestaurantModel.Urun">
+        <MappingFragment StoreEntitySet="Urun">
+          <ScalarProperty Name="UrunID" ColumnName="UrunID" />
+          <ScalarProperty Name="KategoriID" ColumnName="KategoriID" />
+          <ScalarProperty Name="UrunAdi" ColumnName="UrunAdi" />
+          <ScalarProperty Name="UrunAciklamasi" ColumnName="UrunAciklamasi" />
+          <ScalarProperty Name="Fiyat" ColumnName="Fiyat" />
+          <ScalarProperty Name="Durum" ColumnName="Durum" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UrunMalzemeDetay">
+      <EntityTypeMapping TypeName="MarlaRestaurantModel.UrunMalzemeDetay">
+        <MappingFragment StoreEntitySet="UrunMalzemeDetay">
+          <ScalarProperty Name="UrunMalzemeID" ColumnName="UrunMalzemeID" />
+          <ScalarProperty Name="UrunID" ColumnName="UrunID" />
+          <ScalarProperty Name="MalzemeID" ColumnName="MalzemeID" />
+          <ScalarProperty Name="MalzemeStok" ColumnName="MalzemeStok" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UrunSiparisDetay">
+      <EntityTypeMapping TypeName="MarlaRestaurantModel.UrunSiparisDetay">
+        <MappingFragment StoreEntitySet="UrunSiparisDetay">
+          <ScalarProperty Name="UrunSiparisDetayID" ColumnName="UrunSiparisDetayID" />
+          <ScalarProperty Name="UrunID" ColumnName="UrunID" />
+          <ScalarProperty Name="SiparisID" ColumnName="SiparisID" />
+          <ScalarProperty Name="SiparisMiktari" ColumnName="SiparisMiktari" />
+          <ScalarProperty Name="Fiyat" ColumnName="Fiyat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
